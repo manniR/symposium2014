@@ -1,0 +1,127 @@
+body, p, li {
+    font: normal normal 400 15px/130% 'ASAP', Arial, Helvetica, sans-serif;
+    color: rgb(62,62,62);
+    text-align: justify;
+}
+
+.wrap {
+    max-width:992px;
+    margin: 0 auto;
+}
+
+.intro-content {
+    h1 {
+        margin: 25px 0 5px 10px;
+        font-family: 'Fredericka the Great', Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        color: rgb(221,75,57);
+        text-align: left;
+    }
+}
+
+section.explanation {
+    h1 {
+        margin: 11rem 0 5px 10px;
+        font-family: 'Fredericka the Great', Helvetica, Arial, sans-serif;
+        font-size: 2em;
+        color: rgb(221,75,57);
+
+    }
+    ul {
+        max-width: 65%;
+        padding-left: 40px;
+        li {
+            margin-bottom: .3em;
+            color: rgb(90,90,90);
+            list-style: square;
+        }
+    }
+}
+
+footer.globalfoot {
+    height: 100px;
+}
+
+.content-offset {
+    padding: 15px;
+    background: rgb(250,250,250);
+    border: 1px dotted rgb(200,200,200);
+
+    p {
+
+    }
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+    img {
+        float: left;
+        width: 80px;
+        margin: 0 20px 5px 0;
+    }
+}
+
+article.tutorial {
+    margin-bottom: 2em;
+    header {
+        margin: 20px 0;
+        h2, p {
+            font-size: 100%;
+            line-height: 100%;
+            font-weight: normal;
+            text-align: left;
+            margin: 0;
+        }
+        dt, dd {
+            float: left;
+        }
+        dt {
+            clear: both;
+            padding: 4px 8px 4px 8px;
+            background: rgb(221,75,57);
+            border-right: 1px solid rgb(183, 60, 49);
+            p {
+                color: rgb(237,237,237);
+            }
+        }
+        dd {
+            padding: 4px 8px 4px 8px;
+            background: rgb(237,237,237);
+            border-left: 1px solid rgb(250,250,250);
+            h2 {
+                color: rgb(66, 66, 66);
+            }
+        }
+    }
+
+    .toc {
+        h2 {
+            margin-right: 10%;
+            font-family: 'ASAP', Helvetica, Arial, sans-serif;
+            font-size:1.2em;
+            color: rgb(70,70,70);
+            border-bottom: 1px dashed rgb(70,70,70);
+            text-align: left;
+        }
+        dt, dd {
+            float: left;
+            margin: 0;
+            font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+            font-weight: 500;
+            font-size: 0.7em;
+            min-width: 50px;
+            text-align: left;
+        }
+        dt {
+            clear: both;
+            margin-right: 1em;
+
+        }
+        span.timecode {
+            cursor: pointer;
+            color: rgb(169, 83, 30);
+            &:hover {
+                color: rgb(255, 119, 5);
+            }
+        }
+    }
+}
